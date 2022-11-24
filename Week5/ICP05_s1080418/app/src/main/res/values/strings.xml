@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ICP05_s1080418</string>
+    <string name="om01">Help</string>
+    <string name="om02">Calc</string>
+    <string name="om03">Car</string>
+    <string name="fg_name">Calculator</string>
+    <string name="game">Win or Lose</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Tic">Tic-Tac-Toe</string>
+    <string name="cal">Calculator</string>
+
+
+
+    <!-- Calculator Part -->
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="add">+</string>
+    <string name="min">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="del">DEL</string>
+    <string name="clr">CLR</string>
+    <string name="equal">=</string>
+    <string name="dot">.</string>
+    <string name="b">Binary</string>
+    <string name="h">Hex</string>
+    <string name="d">Decimal</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/circle"
+        android:icon="@drawable/circle"
+        android:iconTint="#F8F8F8"
+        android:title="Circle"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/moon"
+        android:icon="@drawable/moon"
+        android:title="Moon"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/rat"
+        android:icon="@drawable/rat"
+        android:iconTint="#FFFFFF"
+        android:title="Rat"
+        app:showAsAction="ifRoom" />
+</menu>

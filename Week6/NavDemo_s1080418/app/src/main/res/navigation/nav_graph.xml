@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHFragment">
+
+    <fragment
+        android:id="@+id/navHFragment"
+        android:name="com.example.navdemo_s1080418.navHFragment"
+        android:label="fragment_nav_h"
+        tools:layout="@layout/fragment_nav_h" >
+        <action
+            android:id="@+id/action_navHFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_navHFragment_to_secFragment"
+            app:destination="@id/secFragment" />
+        <action
+            android:id="@+id/action_navHFragment_to_d1Fragment"
+            app:destination="@id/d1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.navdemo_s1080418.firstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_secFragment"
+            app:destination="@id/secFragment" />
+        <action
+            android:id="@+id/action_firstFragment_self"
+            app:destination="@id/firstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secFragment"
+        android:name="com.example.navdemo_s1080418.secFragment"
+        android:label="fragment_sec"
+        tools:layout="@layout/fragment_sec" >
+        <action
+            android:id="@+id/action_secFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/d1Fragment"
+        android:name="com.example.navdemo_s1080418.d1Fragment"
+        android:label="fragment_d1"
+        tools:layout="@layout/fragment_d1" >
+        <action
+            android:id="@+id/action_d1Fragment_to_d2Fragment"
+            app:destination="@id/d2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/d2Fragment"
+        android:name="com.example.navdemo_s1080418.d2Fragment"
+        android:label="fragment_d2"
+        tools:layout="@layout/fragment_d2" />
+</navigation>

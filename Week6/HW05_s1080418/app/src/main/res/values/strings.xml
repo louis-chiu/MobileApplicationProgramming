@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW06_s1080418</string>
+    <string name="about">About</string>
+    <string name="location">Location</string>
+    <string name="itemname">商品名稱</string>
+    <string name="picture">商品圖</string>
+    <string name="price">商品價格</string>
+    <string name="quantities">商品數量</string>
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrinkFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textBlank"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textItemName"
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/itemname"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textPicture"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/picture" />
+
+            <TextView
+                android:id="@+id/textPrice"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/price" />
+
+            <TextView
+                android:id="@+id/textQuanties"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/quantities" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName5"
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="黑糖拿鐵"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/balckteat"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="80" />
+
+            <EditText
+                android:id="@+id/editQuantities5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName6"
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="冰拿鐵"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/latte"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="85" />
+
+            <EditText
+                android:id="@+id/editQuantities6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName7"
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="卡布奇諾"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/piccolo"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="80" />
+
+            <EditText
+                android:id="@+id/editQuantities7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="24dp">
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName8"
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="焙茶拿鐵"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hojicha"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="90" />
+
+            <EditText
+                android:id="@+id/editQuantities8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+    </TableLayout>
+</FrameLayout>

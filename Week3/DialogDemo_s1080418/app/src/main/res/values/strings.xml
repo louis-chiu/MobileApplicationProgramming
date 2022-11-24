@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DialogDemo_s1080418</string>
+    <string name="cfm">Confirmation</string>
+    <string name="sc">Single</string>
+    <string name="mc">Multi</string>
+    <string name="ctg">Custom</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW6_s1080418</string>
+    <string name="SID">StudentID</string>
+    <string name="TTT">Tic-Tac-Toe</string>
+    <string name="TV">Your Student ID</string>
+    <string name="Choice">Choose Icon：</string>
+</resources>

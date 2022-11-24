@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ICP3_s1080418</string>
+    <string name="u">↑</string>
+    <string name="d">↓</string>
+    <string name="l">←</string>
+    <string name="r">→</string>
+    <string name="ru">↗</string>
+    <string name="rd">↘</string>
+    <string name="lu">↖</string>
+    <string name="ld">↙</string>
+</resources>

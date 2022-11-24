@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+                android:id="@+id/textBlank"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textItemName"
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/itemname"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textPicture"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/picture" />
+
+            <TextView
+                android:id="@+id/textPrice"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/price" />
+
+            <TextView
+                android:id="@+id/textQuanties"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/quantities" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName1"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="火腿三明治"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ham"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="45" />
+
+            <EditText
+                android:id="@+id/editQuantities1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="70dp"
+            android:layout_height="70dp" >
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName2"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="豬肉三明治"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/pork"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="50" />
+
+            <EditText
+                android:id="@+id/editQuantities2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName3"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="芋泥三明治"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/taro"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="55" />
+
+            <EditText
+                android:id="@+id/editQuantities3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="24dp" >
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/textItemName4"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="鮪魚元氣堡"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/tuna"
+                 />
+
+            <TextView
+                android:id="@+id/textPrice4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="45" />
+
+            <EditText
+                android:id="@+id/editQuantities4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

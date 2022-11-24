@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextDemo_s1080418</string>
+    <string name="H">身高（公分）</string>
+    <string name="W">體重（公斤）</string>
+    <string name="Cal">計算</string>
+    <string name="Bmi">BMI Value</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentDemo_s1080418</string>
+    <string name="btb1">Evoke Activity</string>
+    <string name="btn2">Evoke Actforresult</string>
+    <string name="secAct">Second Activity</string>
+    <string name="finish">finish</string>
+    <string name="h">身高(cm)</string>
+    <string name="w">體重(kg)</string>
+</resources>

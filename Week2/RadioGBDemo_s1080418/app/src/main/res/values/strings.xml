@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioGBDemo_s1080418</string>
+    <string name="C3">三分熟</string>
+    <string name="C5">五分熟</string>
+    <string name="C7">七分熟</string>
+    <string name="ti">請選擇牛排幾分熟？</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChkBoxDemo_s108018</string>
+    <string name="org">原味披薩 $250</string>
+    <string name="beef">牛肉披薩 $275</string>
+    <string name="seafood">海鮮披薩 $350</string>
+    <string name="amt">數量（每種幾個）</string>
+    <string name="btn">計算金額</string>
+</resources>
