@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MenuDemo_s1080418</string>
+    <string name="om01">Color</string>
+    <string name="om02">Setting</string>
+    <string name="om03">Calc</string>
+    <string name="om04">Car</string>
+    <string name="cm01">Color</string>
+    <string name="cm02">Nothing</string>
+    <string name="cp">Copy</string>
+    <string name="pt">Paste</string>
+</resources>
