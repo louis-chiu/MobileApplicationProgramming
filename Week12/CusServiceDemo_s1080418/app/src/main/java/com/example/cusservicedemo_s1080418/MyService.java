@@ -34,6 +34,7 @@ public class MyService extends Service {
     private final Random mGenerator = new Random();
 
     public int getRandomNumber(){
+
         return mGenerator.nextInt(100);
 
     }
